@@ -1,0 +1,16 @@
+{
+  "name": "binance-mcp-chatbot",
+  "version": "1.0.0",
+  "description": "Chatbot hỏi đáp giá coin sử dụng MCP",
+  "main": "host.js",
+  "scripts": {
+    "start-server": "node mcp-server.js",
+    "start-host": "node host.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "uuid": "^9.0.1",
+    "ws": "^8.14.2"
+  }
+}
